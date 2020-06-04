@@ -1,0 +1,23 @@
+{
+  "name": "wt2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.2.0",
+    "express": "^4.16.4",
+    "json2csv": "^4.3.2",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0",
+    "serve-static": "^1.13.2",
+    "xml-js": "^1.6.8"
+  }
+}

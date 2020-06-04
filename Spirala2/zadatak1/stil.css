@@ -1,0 +1,10 @@
+#mojaTabela,th,td {
+    border-collapse: collapse;
+}
+#mojaTabela th, td {
+    padding:8px;
+}
+
+#mojaTabela {
+    background: beige;
+}

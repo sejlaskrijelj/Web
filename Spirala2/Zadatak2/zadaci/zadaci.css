@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#header {
+	background: #d2a679;
+	min-height: 70px;
+	overflow: hidden;
+}
+#meni {
+	margin-top: 15px;
+
+}
+h1 {
+	position:absolute;
+	right:0%;
+	margin:0;
+	
+}
+#logo{
+	max-width:4%;
+	max-height:4%;
+}
+
+ ul {
+	list-style-type: none;
+	overflow: hidden;
+    
+}
+#meni li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+#meni a {
+	color:#734d26;
+}
+
+#meni a:hover {
+	color: #00802b;
+}
+
+
+.cetvrtina {
+	float:left;
+	width:25%;
+	max-height:500px;
+	background:#ffa366;
+    padding:10px;
+	border: 1px black solid;
+	overflow: hidden;
+  
+}
+
+.polovina {
+	float:left;
+    width:50%;
+    max-height:500px;
+    background:#ffce99;
+	border: 1px black solid;
+	padding-left: 30px;
+	overflow: hidden;
+
+}
+
+#footer {
+	clear: both;
+	background:#d2a679;
+	overflow: hidden;
+	padding: 8px 0;
+}
+
+
+#imena {
+
+    border: 1px solid black;
+	overflow-y: scroll;
+	margin-top: 25px;
+	margin-bottom: 120px;
+}
+#godina {
+	border: 1px solid black;
+	overflow-y: scroll;
+	margin-bottom: 200px;
+	margin-top:25px;
+}
+.cetvrtina h3 {
+      text-align:center;
+      margin-top: 50px;
+}
+
+#imena ul,#godina ul {
+	padding-bottom: 93px;
+}
+
+#imena {
+	margin-bottom: 129px;
+}
+.folder {
+	display:flex;
+	flex-flow: row wrap;
+	margin: 25px 20px 24px 0px;
+	border: 1px #331a00 solid;
+	background-color:#d2a679;
+    overflow:hidden;
+	box-shadow: 5px 5px 8px #b7b795;
+	width: 90%;
+	height:212px;
+}
+.folder h3 {
+	margin-right:500px;
+	margin-top: 15px;
+	margin-left: 15px;
+	
+}
+.item {
+     border: 1px black solid;
+     padding:1em;
+     text-align:center;
+	 background-color:#ffa366;
+	 margin:5px;
+	 width: 100px;
+	 height: 25%;
+	 overflow: hidden;
+     
+
+}
+
+form {
+	position:relative;
+	left:20%;
+	margin-top:15px;
+	overflow: hidden;
+
+}
+input[type=submit] {
+	width:60%;
+	position: relative;
+	left:20%;
+	border-radius: 1px;
+}
+input[type="text"]{
+	width:60%;
+	border-radius:1px;
+}
+
+@media (max-width: 600px) {
+	#meni li,#meni ul,h1{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	#meni li {
+		display: block;
+	}
+	#meni {
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	h1 {
+		margin-bottom: 0px;
+		margin-top:160px;
+		padding-top: 5px;
+	}
+	
+	.cetvrtina,.polovina {
+		float:none;
+		width:100%;
+	}
+
+}

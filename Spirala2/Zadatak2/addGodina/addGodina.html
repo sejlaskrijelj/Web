@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>addGodina</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="addGodina.css">
+</head>
+<body>
+     <div id="header">
+     	<h1> Odabir vježbe</h1>
+     	<img src="logo.png" alt="logo" id="logo">
+     	<div id="meni">
+     		<ul>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="studenti.html">Studenti</a></li>
+				<li><a href="zadaci.html">Zadaci</a></li>
+				<li><a href="commiti.html">Commiti</a></li>
+				<li><a href="addZadatak.html">Dodaj zadatak</a></li>
+				<li><a href="addVjezba.html">Dodaj vježbu</a></li>
+				<li><a href="addStudent.html">Dodaj studenta</a></li>
+				<li><a href="addGodina.html">Dodaj godinu</a></li>
+     		</ul>
+     	</div>
+     </div>
+       <div id="side">
+     	<h3>Unos godine:</h3>
+     	<form action="#">
+     		<label>Naziv godine<br><input type="text" name="naziv" id="godina1" required></label> <br>
+     		<br> <br>
+     		<label>Nazivi repozitorija vježbe<br><input type="text" name="rvjezbe" id="repozitorij1" required></label> <br>
+     		<br> <br>
+     		<label>Nazivi repozitorija spirale<br><input type="text" name="rspiral"id="repozitorij2" required></label> <br>
+     		<br> <br>
+     		  <input type="submit" name="submit" value="Poništi" id="dugme1">
+                <input type="submit" name="submit" value="Unesi" id="dugme2" onclick="klik();return false;">
+              <br>	<br>
+              <div id="poruke"></div>
+     	</form>
+     </div>
+
+     <div id="glavniSadrzaj">
+     	<div id="godina">
+     		<div class="box">
+     			<h4> 2015/2016</h4>
+     			<p> Broj studenata: 90 <br>
+     			    Broj vježbi: 10 <br>
+     			    Broj spirala: 4 </p>
+
+     		</div>
+     		<div class="box">
+     			<h4> 2016/2017</h4>
+     			<p> Broj studenata: 90 <br>
+     			    Broj vježbi: 10 <br>
+     			    Broj spirala: 4 </p>
+     	   </div>
+     	   <div class="box"></div>
+     	   <div class="box"></div>
+      </div>
+     </div>
+
+      <div id="footer">
+     	Web tehnologije 2018/19
+     </div>  
+     <script src="validacija.js"></script>
+     <script src="addGodina.js"></script>
+</body>
+</html>

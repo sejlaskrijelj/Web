@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding: 0;
+	 box-sizing: border-box;
+}
+#header {
+	background: #d2a679;
+	min-height: 70px;
+	overflow: hidden;
+}
+#meni {
+	margin-top: 15px;
+
+}
+h1 {
+	position:absolute;
+	right:0%;
+	margin:0;
+	
+}
+#logo{
+	max-width:4%;
+	max-height:4%;
+}
+
+ ul {
+	list-style-type: none;
+	overflow: hidden;
+    
+}
+#meni li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+#meni a {
+	color:#734d26;
+}
+
+#meni a:hover {
+	color: #00802b;
+}
+
+#side {
+
+	float:left;
+	width:35%;
+	height: 500px;
+	background:#fcc289;
+	overflow: hidden;
+}
+#side h3 {
+	position:relative;
+	top:10%;
+	left:35%;
+
+}
+#side form {
+	margin-left:20%;
+	margin-top:20%;
+}
+
+
+#glavniSadrzaj {
+	float:right;
+	width:65%;
+	height: 500px;
+	background:#ffce99;
+	overflow: hidden;	
+	
+}
+
+.box {
+	 border: 1px black solid;
+	 padding:1em;
+	 background-color:#ffa366;
+	
+	 
+}
+#dugme1,#dugme2 {
+	height:25px;
+	width:70px;
+	border-radius:1px;
+}
+#dugme2 {
+	position: relative;
+	left:20%;
+	border-radius: 1px;
+}
+input[type="text"] {
+	border-radius:1px;
+}
+
+#godina {
+	display:grid;
+	grid-template-columns:20% 20%;
+	grid-gap: 1em;
+	align-content: center;
+	grid-auto-rows:minmax(200px,auto);
+	grid-template-columns: 30% 30%;
+	
+	margin-left:25%;
+	margin-top:5%;
+	overflow: hidden;
+}
+
+#footer {
+	clear: both;
+	background:#d2a679;
+	overflow: hidden;
+	padding: 8px 0;
+}
+
+@media (max-width: 600px ) {
+	#meni li,#meni ul,h1{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	#meni li {
+		display: block;
+	}
+	#meni {
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	h1 {
+		margin-bottom: 0px;
+		margin-top:160px;
+		padding-top: 5px;
+	}
+	
+	#side,#glavniSadrzaj {
+		float: none;
+		width:100%;
+		
+	}
+}

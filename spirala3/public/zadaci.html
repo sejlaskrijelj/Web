@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>zadaci</title>
+	<link rel="stylesheet" href="zadaci.css">
+</head>
+<body>
+ <div id="header">
+     	<h1>Odabir vježbe</h1>
+     	<img src="logo.png" alt="logo" id="logo">
+     	<div id="meni">
+     		<ul>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="studenti.html">Studenti</a></li>
+				<li><a href="zadaci.html">Zadaci</a></li>
+				<li><a href="commiti.html">Commiti</a></li>
+				<li><a href="addZadatak.html">Dodaj zadatak</a></li>
+				<li><a href="addVjezba.html">Dodaj vježbu</a></li>
+				<li><a href="addStudent.html">Dodaj studenta</a></li>
+				<li><a href="addGodina.html">Dodaj godinu</a></li>
+     		</ul>
+     	</div>
+     </div>
+     	<div class="cetvrtina" id="klasa1">
+	     		<h3>Godina</h3>
+	     	<div id="godina">
+	     	<ul>
+	     			<li>Godina 2014/2015</li>
+	     			<li>Godina 2015/2016</li>
+	     			<li>Godina 2016/2017</li>
+	     			<li>Godina 2017/2018</li>
+	     			<li>Godina 2018/2019</li>
+	     		</ul>
+	     	</div>
+     	</div>
+     	<div class="cetvrtina" id="klasa2">
+     		<h3>Student</h3>
+     		<form action="#">
+             <input type="text" name="query" id="naziv">
+             <br> 
+             <div id="poruke"></div>
+     		</form><br>
+     		<input type="submit" name="search" value="search" onclick="klik();return false;">
+	     	<div id="imena">
+	     	<ul>
+	     			<li>Ime i prezime|index</li>
+	     			<li>Nerko Nekić|12345</li>
+	     			<li>Nerko Nekić|12345</li>
+	     			<li>Nerko Nekić|12345</li>
+	     			<li>Nerko Nekić|12345</li>
+	     		</ul>
+	     	</div>
+     	</div>
+     <div class="polovina">
+     	<div class="folder">
+     		<h3>Vježbe</h3>
+     		<div class="item">Vježba1</div>
+     		<div class="item">Vježba2</div>
+     		<div class="item">Vježba3</div>
+     		<div class="item">Vježba4</div>
+     		<div class="item">Vježba5</div>
+     		<div class="item">Vježba6</div>
+     		
+     	</div>
+     	<div class="folder">
+     		<h3>Spirale</h3>
+     		<div class="item">Spirala1</div>
+     		<div class="item">Spirala2</div>
+     		<div class="item">Spirala3</div>
+     		<div class="item">Spirala4</div>
+     		<div class="item">Spirala5</div>
+     		
+     	</div>
+     </div>
+   <div id="footer">
+     	Web tehnologije 2018/19
+     </div>  
+     <script src="validacija.js"></script>
+     <script src="zadaci.js"></script>
+</body>
+</html>

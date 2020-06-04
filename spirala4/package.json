@@ -16,7 +16,7 @@
     "multer": "^1.4.1",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.4",
-    "sequelize": "^4.42.0",
+    "sequelize": "^5.15.1",
     "serve-static": "^1.13.2",
     "xml-js": "^1.6.8"
   }
